@@ -1,0 +1,35 @@
+﻿<Window x:Class="kursovai.authorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kursovai"
+        mc:Ignorable="d"
+        Height="450" Width="800" WindowStartupLocation="CenterScreen"  >
+    <Viewbox Stretch="Fill">
+        <Grid >
+            <Grid.Background>
+                <ImageBrush ImageSource="\Properties\fon.jpg"/>
+            </Grid.Background>
+            <Grid Margin="196,52,196,52" Background="PowderBlue" Name="Avtorizazia" Visibility="Visible">
+
+                <TextBlock HorizontalAlignment="Left" Margin="91,144,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Margin="80,180,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="18"/>
+                <TextBox  HorizontalAlignment="Left"  Margin="146,147,0,0" TextWrapping="NoWrap"  VerticalAlignment="Top" Width="120" FontSize="12" Name="login"/>
+                <TextBox  HorizontalAlignment="Left" Margin="147,186,0,0"  VerticalAlignment="Top" Width="120"  FontSize="12" Name="password" Visibility="Hidden" />
+                <Button Background="#FDBD40" Content="Войти" HorizontalAlignment="Left" Margin="118,224,0,0" VerticalAlignment="Top" Width="160" Height="34" FontSize="21" Name="enter" Click="enter_Click"/>
+                <TextBlock HorizontalAlignment="Center" Margin="0,67,0,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" FontSize="36"/>
+                <TextBlock HorizontalAlignment="Center" Margin="0,263,0,0" TextWrapping="Wrap"  Name="Time" VerticalAlignment="Top" Width="388" Foreground="Red" FontSize="18" Height="57"/>
+                <PasswordBox  HorizontalAlignment="Left" Margin="147,186,0,0" VerticalAlignment="Top" Width="120" FontSize="12" Name="Password"/>
+                <CheckBox Content="Показать пароль" HorizontalAlignment="Left" Margin="272,186,0,0" VerticalAlignment="Top" Checked="Button_Click" Unchecked="CheckBox_Unchecked" Width="115" Height="17"/>
+            </Grid>
+            <Grid Margin="196,52,196,52" Background="PowderBlue" Name="captcha" Visibility="Hidden" >
+                <TextBlock HorizontalAlignment="Center" Margin="0,74,0,0" TextWrapping="Wrap" x:Name="text"  VerticalAlignment="Top" FontSize="36" />
+                <Canvas Margin="80,48,80,194" Height="100" Width="250" Name="canva" Background="DarkGray"/>
+                <Button  Background="#FDBD40" Content="Ок" HorizontalAlignment="Left" Margin="100,197,0,0" VerticalAlignment="Top" Height="25" Width="73" Click="Button_Click_1"/>
+                <Button Background="#FDBD40" Content="Обновить" HorizontalAlignment="Left" Margin="277,197,0,0" VerticalAlignment="Top" Height="25" Width="73" Click="Obnovit"/>
+                <TextBox HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Name="textcaptcha" Margin="0,165,0,0"/>
+            </Grid>
+        </Grid>
+    </Viewbox>
+</Window>

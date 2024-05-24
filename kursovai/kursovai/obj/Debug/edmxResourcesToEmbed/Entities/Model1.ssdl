@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ShooleModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="items">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="id_teacher" Type="int" />
+  </EntityType>
+  <EntityType Name="itemsstudent">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_student" Type="int" />
+    <Property Name="id_items" Type="int" />
+    <Property Name="ocenka" Type="int" />
+  </EntityType>
+  <EntityType Name="students">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="surname" Type="varchar" MaxLength="100" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="patronymic" Type="varchar" MaxLength="100" />
+    <Property Name="numberclass" Type="int" />
+  </EntityType>
+  <EntityType Name="teachers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="surname" Type="varchar" MaxLength="100" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="patronymic" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id_users" />
+    </Key>
+    <Property Name="id_users" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="surname" Type="varchar" MaxLength="100" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="patronymic" Type="varchar" MaxLength="100" />
+    <Property Name="login" Type="varchar" MaxLength="100" />
+    <Property Name="password" Type="varchar" MaxLength="100" />
+    <Property Name="levels" Type="varchar" MaxLength="100" />
+    <Property Name="blok" Type="int" />
+  </EntityType>
+  <Association Name="FK__items__id_teache__38996AB5">
+    <End Role="teachers" Type="Self.teachers" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="teachers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="id_teacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__itemsstud__id_it__3E52440B">
+    <End Role="items" Type="Self.items" Multiplicity="0..1" />
+    <End Role="itemsstudent" Type="Self.itemsstudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="items">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="itemsstudent">
+        <PropertyRef Name="id_items" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__itemsstud__id_st__3D5E1FD2">
+    <End Role="students" Type="Self.students" Multiplicity="0..1" />
+    <End Role="itemsstudent" Type="Self.itemsstudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="students">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="itemsstudent">
+        <PropertyRef Name="id_student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ShooleModelContainer">
+    <EntitySet Name="items" EntityType="Self.items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="itemsstudent" EntityType="Self.itemsstudent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="students" EntityType="Self.students" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="teachers" EntityType="Self.teachers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__items__id_teache__38996AB5" Association="Self.FK__items__id_teache__38996AB5">
+      <End Role="teachers" EntitySet="teachers" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__itemsstud__id_it__3E52440B" Association="Self.FK__itemsstud__id_it__3E52440B">
+      <End Role="items" EntitySet="items" />
+      <End Role="itemsstudent" EntitySet="itemsstudent" />
+    </AssociationSet>
+    <AssociationSet Name="FK__itemsstud__id_st__3D5E1FD2" Association="Self.FK__itemsstud__id_st__3D5E1FD2">
+      <End Role="students" EntitySet="students" />
+      <End Role="itemsstudent" EntitySet="itemsstudent" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

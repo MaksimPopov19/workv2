@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShooleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="items">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="id_teacher" Type="Int32" />
+    <NavigationProperty Name="teachers" Relationship="Self.FK__items__id_teache__38996AB5" FromRole="items" ToRole="teachers" />
+    <NavigationProperty Name="itemsstudent" Relationship="Self.FK__itemsstud__id_it__3E52440B" FromRole="items" ToRole="itemsstudent" />
+  </EntityType>
+  <EntityType Name="itemsstudent">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_student" Type="Int32" />
+    <Property Name="id_items" Type="Int32" />
+    <Property Name="ocenka" Type="Int32" />
+    <NavigationProperty Name="items" Relationship="Self.FK__itemsstud__id_it__3E52440B" FromRole="itemsstudent" ToRole="items" />
+    <NavigationProperty Name="students" Relationship="Self.FK__itemsstud__id_st__3D5E1FD2" FromRole="itemsstudent" ToRole="students" />
+  </EntityType>
+  <EntityType Name="students">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="surname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="patronymic" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="numberclass" Type="Int32" />
+    <NavigationProperty Name="itemsstudent" Relationship="Self.FK__itemsstud__id_st__3D5E1FD2" FromRole="students" ToRole="itemsstudent" />
+  </EntityType>
+  <EntityType Name="teachers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="surname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="patronymic" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="items" Relationship="Self.FK__items__id_teache__38996AB5" FromRole="teachers" ToRole="items" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id_users" />
+    </Key>
+    <Property Name="id_users" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="surname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="patronymic" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="login" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="levels" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="blok" Type="Int32" />
+  </EntityType>
+  <Association Name="FK__items__id_teache__38996AB5">
+    <End Role="teachers" Type="Self.teachers" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="teachers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="id_teacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__itemsstud__id_it__3E52440B">
+    <End Role="items" Type="Self.items" Multiplicity="0..1" />
+    <End Role="itemsstudent" Type="Self.itemsstudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="items">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="itemsstudent">
+        <PropertyRef Name="id_items" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__itemsstud__id_st__3D5E1FD2">
+    <End Role="students" Type="Self.students" Multiplicity="0..1" />
+    <End Role="itemsstudent" Type="Self.itemsstudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="students">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="itemsstudent">
+        <PropertyRef Name="id_student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entitiesshool" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="items" EntityType="Self.items" />
+    <EntitySet Name="itemsstudent" EntityType="Self.itemsstudent" />
+    <EntitySet Name="students" EntityType="Self.students" />
+    <EntitySet Name="teachers" EntityType="Self.teachers" />
+    <EntitySet Name="users" EntityType="Self.users" />
+    <AssociationSet Name="FK__items__id_teache__38996AB5" Association="Self.FK__items__id_teache__38996AB5">
+      <End Role="teachers" EntitySet="teachers" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__itemsstud__id_it__3E52440B" Association="Self.FK__itemsstud__id_it__3E52440B">
+      <End Role="items" EntitySet="items" />
+      <End Role="itemsstudent" EntitySet="itemsstudent" />
+    </AssociationSet>
+    <AssociationSet Name="FK__itemsstud__id_st__3D5E1FD2" Association="Self.FK__itemsstud__id_st__3D5E1FD2">
+      <End Role="students" EntitySet="students" />
+      <End Role="itemsstudent" EntitySet="itemsstudent" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

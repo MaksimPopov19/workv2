@@ -1,0 +1,201 @@
+C:\Users\максим\Desktop\kursovai\kursovai\bin\Debug\kursovai.exe.config
+C:\Users\максим\Desktop\kursovai\kursovai\bin\Debug\kursovai.exe
+C:\Users\максим\Desktop\kursovai\kursovai\bin\Debug\kursovai.pdb
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai.csproj.AssemblyReference.cache
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\authorization.g.cs
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\MainWindow.g.cs
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\App.g.cs
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.cache
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.lref
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\authorization.baml
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\MainWindow.baml
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai.g.resources
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai.Properties.Resources.resources
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai.csproj.GenerateResource.cache
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai.csproj.CoreCompileInputs.cache
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai.exe
+C:\Users\максим\Desktop\kursovai\kursovai\obj\Debug\kursovai.pdb
+H:\рпм\курсач\kursovai\kursovai\bin\Debug\kursovai.exe.config
+H:\рпм\курсач\kursovai\kursovai\bin\Debug\kursovai.exe
+H:\рпм\курсач\kursovai\kursovai\bin\Debug\kursovai.pdb
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.AssemblyReference.cache
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\authorization.g.cs
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\MainWindow.g.cs
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\App.g.cs
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.cache
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.lref
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\authorization.baml
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\MainWindow.baml
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai.g.resources
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai.Properties.Resources.resources
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.GenerateResource.cache
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CoreCompileInputs.cache
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai.exe
+H:\рпм\курсач\kursovai\kursovai\obj\Debug\kursovai.pdb
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\kursovai.exe.config
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\kursovai.exe
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\kursovai.pdb
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.AssemblyReference.cache
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Admin.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\authorization.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\MainWindow.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\App.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.cache
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.lref
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Admin.baml
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\authorization.baml
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\MainWindow.baml
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.g.resources
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.Properties.Resources.resources
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.GenerateResource.cache
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CoreCompileInputs.cache
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.exe
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.pdb
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Student.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Teacher.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Student.baml
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Teacher.baml
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\EntityFramework.dll
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\EntityFramework.xml
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai_Content.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\registrations.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\registrations.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\kursovai.exe.config
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\kursovai.exe
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\kursovai.pdb
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\EntityFramework.dll
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.dll
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\EntityFramework.xml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.xml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\bin\Debug\ru\EntityFramework.resources.dll
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.AssemblyReference.cache
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Admin.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\authorization.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\MainWindow.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\registrations.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Student.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Teacher.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\App.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.cache
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.lref
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Admin.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\authorization.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\MainWindow.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\registrations.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Student.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Teacher.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.g.resources
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.Properties.Resources.resources
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.GenerateResource.cache
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CoreCompileInputs.cache
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CopyComplete
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.exe
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai.pdb
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Capca.g.cs
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\Capca.baml
+H:\рпм\курсач (1)\курсач\kursovai\kursovai\obj\Debug\kursovai_Content.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\kursovai.exe.config
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\kursovai.exe
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\kursovai.pdb
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.dll
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.xml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.AssemblyReference.cache
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\Admin.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\authorization.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\MainWindow.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\registrations.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\Student.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\Teacher.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\App.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai_Content.g.cs
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.cache
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.lref
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\Admin.baml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\authorization.baml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\MainWindow.baml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\registrations.baml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\Student.baml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\Teacher.baml
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.g.resources
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.Properties.Resources.resources
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.GenerateResource.cache
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CoreCompileInputs.cache
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CopyComplete
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.exe
+C:\Users\максим\Desktop\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.pdb
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\kursovai.exe.config
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\kursovai.exe
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\kursovai.pdb
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.dll
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.dll
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.xml
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.xml
+H:\рпм\курсач\курсач\kursovai\kursovai\bin\Debug\ru\EntityFramework.resources.dll
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.AssemblyReference.cache
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.SuggestedBindingRedirects.cache
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\Admin.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\authorization.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\MainWindow.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\registrations.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\Student.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\Teacher.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\App.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai_Content.g.cs
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.cache
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.lref
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\Admin.baml
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\authorization.baml
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\MainWindow.baml
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\registrations.baml
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\Student.baml
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\Teacher.baml
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.g.resources
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.Properties.Resources.resources
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.GenerateResource.cache
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CoreCompileInputs.cache
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CopyComplete
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.exe
+H:\рпм\курсач\курсач\kursovai\kursovai\obj\Debug\kursovai.pdb
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.Up2Date
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Editor.g.cs
+C:\Users\максим\Desktop\курсач\kursovai\kursovai\obj\Debug\Editor.baml
+H:\курсач\kursovai\kursovai\bin\Debug\kursovai.exe.config
+H:\курсач\kursovai\kursovai\bin\Debug\kursovai.exe
+H:\курсач\kursovai\kursovai\bin\Debug\kursovai.pdb
+H:\курсач\kursovai\kursovai\bin\Debug\EntityFramework.dll
+H:\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.dll
+H:\курсач\kursovai\kursovai\bin\Debug\EntityFramework.xml
+H:\курсач\kursovai\kursovai\bin\Debug\EntityFramework.SqlServer.xml
+H:\курсач\kursovai\kursovai\bin\Debug\ru\EntityFramework.resources.dll
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.AssemblyReference.cache
+H:\курсач\kursovai\kursovai\obj\Debug\Admin.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\authorization.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\Editor.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\MainWindow.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\registrations.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\Student.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\Teacher.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\App.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai_Content.g.cs
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.cache
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai_MarkupCompile.lref
+H:\курсач\kursovai\kursovai\obj\Debug\Admin.baml
+H:\курсач\kursovai\kursovai\obj\Debug\authorization.baml
+H:\курсач\kursovai\kursovai\obj\Debug\Editor.baml
+H:\курсач\kursovai\kursovai\obj\Debug\MainWindow.baml
+H:\курсач\kursovai\kursovai\obj\Debug\registrations.baml
+H:\курсач\kursovai\kursovai\obj\Debug\Student.baml
+H:\курсач\kursovai\kursovai\obj\Debug\Teacher.baml
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.g.resources
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.Properties.Resources.resources
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.GenerateResource.cache
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.CoreCompileInputs.cache
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.csproj.Up2Date
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.exe
+H:\курсач\kursovai\kursovai\obj\Debug\kursovai.pdb
